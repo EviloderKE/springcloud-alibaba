@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>demo</module>
+        <module>provider</module>
     </modules>
     <name>springcloud-alibaba</name>
     <description>springcloud-alibaba</description>

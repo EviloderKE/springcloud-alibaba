@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.provider.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
