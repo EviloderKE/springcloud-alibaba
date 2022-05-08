@@ -1,3 +1,5 @@
+server:
+  port: 8300
 spring:
   config:
     activate:
@@ -11,6 +13,10 @@ spring:
         file-extension: yaml
       discovery:
         server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8179
 management:
   endpoints:
     web:
