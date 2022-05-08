@@ -1,4 +1,7 @@
 spring:
+  config:
+    activate:
+      on-profile: dev
   application:
     name: provider
   cloud:
@@ -8,9 +11,6 @@ spring:
         file-extension: yaml
       discovery:
         server-addr: 127.0.0.1:8848
-  config:
-    activate:
-      on-profile: sit
 management:
   endpoints:
     web:
